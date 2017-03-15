@@ -19,7 +19,7 @@ $ brew install llvm bdw-gc
 
 **HelloWorld**
 
-sample code를 내려받고 `sbt run`을 실행합니다. 실행 파일은 ``./target/scala-2.11/sample-scalanative-out`으로 생성됩니다.
+sample code를 내려받고 `sbt run`을 실행합니다. 실행 파일은 `./target/scala-2.11/sample-scalanative-out`으로 생성됩니다.
 
 
 **SBT Tasks**
