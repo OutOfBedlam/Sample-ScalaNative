@@ -1,5 +1,26 @@
 
-* 2017/3/15일 릴리즈된 scala-native 0.1버전에 대한 HelloWorld 예제입니다.
+> 2017/3/15일 릴리즈된 scala-native 0.1버전에 대한 HelloWorld 예제입니다.
+
+**환경설정**
+
+LLVM, Clang, Boehm GC가 필요합니다.
+
+Ubuntu:
+
+```sh
+$ sudo apt-get install clang libgc-dev libunwind-dev
+```
+
+macOS:
+
+```sh
+$ brew install llvm bdw-gc
+```
+
+**HelloWorld**
+
+sample code를 내려받고 `sbt run`을 실행합니다. 실행 파일은 ``./target/scala-2.11/sample-scalanative-out`으로 생성됩니다.
+
 
 **SBT Tasks**
 
